@@ -9,7 +9,7 @@ while True:
         move()
   turn(-1)
   move()
-  print look()
-  print touch()
+  while smell()==1
+    print look()
   
   
