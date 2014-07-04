@@ -9,5 +9,5 @@ while True:
     move()
   turn(-1)
   move()
-  print smell()
+  print touch()
   
