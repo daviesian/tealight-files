@@ -18,4 +18,4 @@ for i in range(0,1000,1):
   result = expt()
   bins[result] += 1
   
-print results
+print bins
