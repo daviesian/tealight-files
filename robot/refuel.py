@@ -10,6 +10,7 @@ while True:
         turn(1)
         move()
       while touch()=="None":
+        turn(-1)
         move()
   turn(-1)
   move()
