@@ -4,7 +4,7 @@ from tealight.robot import (move, turn, look, touch, smell, leftSide, rightSide)
 while True:
   while look()=="fruit":
     move()
-    while leftSide()=="wall":
+  while leftSide()=="wall":
       move()
       while touch()=="wall":
         turn(1)
