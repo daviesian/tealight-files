@@ -29,4 +29,4 @@ line(0,600,51*barWidth,600)
 for i in range(0,51,1):
   box(i * barWidth,600,barWidth, -bins[i]*2* 2000/numTrials)
   
-text(100,100,"hello")
+text(0,620,"0 heads")
