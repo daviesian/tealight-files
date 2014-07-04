@@ -14,7 +14,7 @@ def expt():
 
 bins = [0] * 51
 
-for i in range(0,1000,1):
+for i in range(0,10000,1):
   print "Trial %d" % i
   result = expt()
   bins[result] += 1
