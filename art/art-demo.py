@@ -20,7 +20,7 @@ for i in range(0,1000,1):
   
 print bins
 
-barWidth = 5
+barWidth = 10
 
 for i in range(0,51,1):
-  box(i * barWidth,300,barWidth, -bins[i])
+  box(i * barWidth,600,barWidth, -bins[i]*2)
