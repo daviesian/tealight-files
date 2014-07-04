@@ -6,3 +6,5 @@ while True:
     move()
   turn(-1)
   move()
+  while touch()=="wall":
+    turn(1)
