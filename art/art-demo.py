@@ -32,6 +32,6 @@ for i in range(0,51,1):
     text(i*barWidth,620, i)
   box(i * barWidth,600,barWidth, -bins[i]*2* 2000/numTrials)
   
-text(0,620,"0 heads")
-text(0 + barWidth * 51/2,620,"25 heads")
-text(0 + barWidth * 51,620,"50 heads")
+#text(0,620,"0 heads")
+#text(0 + barWidth * 51/2,620,"25 heads")
+#text(0 + barWidth * 51,620,"50 heads")
