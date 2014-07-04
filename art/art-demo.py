@@ -7,7 +7,7 @@ from random import random
 def expt():
   heads = 0
   for i in range(0,50,1):
-    if random() > 0.5:
+    if random() >= 0.5:
       heads = heads + 1
      
   return heads
