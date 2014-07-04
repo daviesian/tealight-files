@@ -25,6 +25,6 @@ for i in range(0,numTrials,1):
 print bins
 
 barWidth = 10
-line(0,51*barWidth)
+line(0,600,51*barWidth,600)
 for i in range(0,51,1):
   box(i * barWidth,600,barWidth, -bins[i]*2* 2000/numTrials)
