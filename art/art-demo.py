@@ -14,7 +14,7 @@ def expt():
 
 bins = [0] * 51
 
-numTrials = 10000
+numTrials = 100
 
 for i in range(0,numTrials,1):
   print "Trial %d" % i
@@ -25,6 +25,6 @@ for i in range(0,numTrials,1):
 print bins
 
 barWidth = 10
-
+line(0,51*barWidth)
 for i in range(0,51,1):
   box(i * barWidth,600,barWidth, -bins[i]*2* 2000/numTrials)
