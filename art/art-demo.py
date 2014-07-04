@@ -2,6 +2,7 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 
 from tealight.art import (screenWidth, screenHeight)
 
+from tealight.utils import random
 
 def expt():
   heads = 0
