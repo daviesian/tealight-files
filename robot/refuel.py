@@ -6,8 +6,8 @@ while True:
   print touch()
   print look()
   print smell()
-    while leftSide()=="wall"
-      move()
+while leftSide()=="wall"
+  move()
   
   
   
