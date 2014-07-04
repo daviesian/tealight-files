@@ -9,6 +9,8 @@ while True:
         move()
   turn(-1)
   move()
+  print look()
+  print touch()
   
   
   
