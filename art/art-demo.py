@@ -14,7 +14,9 @@ def expt():
 
 bins = [0] * 51
 
-for i in range(0,10000,1):
+numTrials = 100
+
+for i in range(0,numTrials,1):
   print "Trial %d" % i
   result = expt()
   bins[result] += 1
@@ -25,4 +27,4 @@ print bins
 barWidth = 10
 
 for i in range(0,51,1):
-  box(i * barWidth,600,barWidth, -bins[i]*2)
+  box(i * barWidth,600,barWidth, -bins[i]*2/numTrials)
