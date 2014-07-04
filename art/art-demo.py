@@ -27,4 +27,4 @@ print bins
 barWidth = 10
 
 for i in range(0,51,1):
-  box(i * barWidth,600,barWidth, -bins[i]*2/numTrials)
+  box(i * barWidth,600,barWidth, -bins[i]*2* 500/numTrials)
