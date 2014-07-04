@@ -9,7 +9,7 @@ print "This is logo mode!"
 colors = ["red", "blue", "green"]
 
 for i in range(10,200,5):
-  move(i)
+  move(10)
   turn(10)
   c = colors[(i / 5)%3]
   color(c)
