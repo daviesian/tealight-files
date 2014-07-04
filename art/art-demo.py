@@ -12,5 +12,10 @@ def expt():
      
   return heads
 
-results = [0] * 51
+bins = [0] * 51
+
+for i in range(0,1000,1):
+  result = expt()
+  bins[result] += 1
+  
 print results
