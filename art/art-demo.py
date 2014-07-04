@@ -19,3 +19,6 @@ for i in range(0,1000,1):
   bins[result] += 1
   
 print bins
+
+for i in range(0,51,1):
+  box(i,300,1,bins[i])
