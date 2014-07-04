@@ -9,5 +9,7 @@ def expt():
   for i in range(0,50,1):
     if random() > 0.5:
       heads = heads + 1
+     
+  return heads
 
 print expt()
