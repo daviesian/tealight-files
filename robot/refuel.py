@@ -5,3 +5,4 @@ while True:
   while leftSide()=="wall":
     move()
   turn(-1)
+  move()
