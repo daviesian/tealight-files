@@ -12,4 +12,5 @@ def expt():
      
   return heads
 
-print expt()
+results = [0] * 51
+print results
