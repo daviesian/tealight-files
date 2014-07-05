@@ -9,10 +9,10 @@ def go():
     moved = moved + 1
     
   turn(-1)
-  if leftSide() == "fruit"
+  if leftSide() == "fruit":
     go()
   turn(2)
-  if rightSide() == "fruit"
+  if rightSide() == "fruit":
     go()
   
   turn(1)
