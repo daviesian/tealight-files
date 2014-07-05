@@ -4,7 +4,7 @@ from tealight.art import (screenWidth, screenHeight)
 
 from random import random
 
-def expt():
+def expt():Gj
   heads = 0
   for i in range(0,50,1):
     if random() >= 0.6666667:
