@@ -9,9 +9,11 @@ def go():
     moved = moved + 1
     
   turn(-1)
-  go()
+  if leftSide() == "fruit"
+    go()
   turn(2)
-  go()
+  if rightSide() == "fruit"
+    go()
   
   turn(1)
   for i in range(0,moved):
