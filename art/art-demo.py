@@ -40,6 +40,7 @@ lastx = 0
 lasty = 0
 
 def handle_mousemove(x,y):
+  global lastx, lasty
   line(lastx,lasty, x, y)
   lastx = x
   lasty = y
