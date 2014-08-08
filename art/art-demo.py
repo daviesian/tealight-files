@@ -36,5 +36,14 @@ for i in range(0,51,1):
 #text(0 + barWidth * 51/2,620,"25 heads")
 #text(0 + barWidth * 51,620,"50 heads")
 
+lastx = 0
+lasty = 0
+
 def handle_mousemove(x,y):
+  line(lastx,lasty, x, y)
+  lastx = x
+  lasty = y
   print "%d,%d" % (x,y)
+  
+def handle_frame():
+  
