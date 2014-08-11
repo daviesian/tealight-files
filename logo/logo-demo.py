@@ -6,8 +6,7 @@ from tealight.logo import (move, turn,
 
 print "This is logo mode!"
 
-print 5/3.0
-
+print 5/2
 colors = ["red", "blue", "green"]
 
 for i in range(10,200,5):
