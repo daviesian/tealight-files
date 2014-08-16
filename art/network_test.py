@@ -6,7 +6,7 @@ def handle_connected():
 def handle_message(message):
   print "Message!"
   
-  print keys(message)
+  print message.keys()
 
 def handle_mousemove(x,y):
   send({"x":x, "y":y})
