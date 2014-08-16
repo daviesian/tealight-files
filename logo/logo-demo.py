@@ -3,6 +3,8 @@ from tealight.logo import (move, turn,
                            show_turtle, hide_turtle,
                            color, speed)
 
+from tealight.utils import github_import
+
 print "This is logo mode!"
 
 print 5/2
