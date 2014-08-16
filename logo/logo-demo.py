@@ -11,7 +11,9 @@ import lib
 
 import tealight.net
 
+tealight.net.connect("my_app")
 
+tealight.net.send("hello!")
 
 print lib.lib_func()
 print "This is logo mode!"
