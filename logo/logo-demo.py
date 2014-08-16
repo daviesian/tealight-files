@@ -2,8 +2,7 @@ from tealight.logo import (move, turn,
                            pen_down, pen_up,
                            show_turtle, hide_turtle,
                            color, speed)
-
-exec "print \"hi\""
+eval( "print \"hi\"")
 
 print "This is logo mode!"
 
