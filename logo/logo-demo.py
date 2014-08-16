@@ -9,7 +9,9 @@ github_load("daviesian", "logo/lib.py", "lib")
 
 import lib
 
-from pickle import dump
+import tealight.net
+
+
 
 print lib.lib_func()
 print "This is logo mode!"
