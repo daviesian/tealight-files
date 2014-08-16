@@ -17,7 +17,7 @@ def handle_connected():
   print "Connected!"
   tealight.net.send("hello!")
 
-def handle_message(msg):
+def handle_message(message):
   print "Message!"
   print msg
 
