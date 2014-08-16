@@ -3,7 +3,7 @@ from tealight.logo import (move, turn,
                            show_turtle, hide_turtle,
                            color, speed)
 
-from github.daviesian import thing.foo
+from github.daviesian import thing
 
 print "This is logo mode!"
 
