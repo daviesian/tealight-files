@@ -17,6 +17,10 @@ def handle_connected():
   print "Connected!"
   tealight.net.send("hello!")
 
+def handle_message(msg):
+  print "Message!"
+  print msg
+
 print lib.lib_func()
 print "This is logo mode!"
 
