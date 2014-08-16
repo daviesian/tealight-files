@@ -5,6 +5,8 @@ from tealight.logo import (move, turn,
 
 from tealight.utils import github_import
 
+github_import()
+
 print "This is logo mode!"
 
 print 5/2
