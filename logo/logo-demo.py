@@ -5,7 +5,7 @@ from tealight.logo import (move, turn,
 
 from tealight.utils import github_load
 
-github_load("daviesian", "logo/lib.py")
+github_load("daviesian", "logo/lirrb.py")
 
 import lib
 
