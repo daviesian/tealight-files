@@ -19,7 +19,7 @@ def handle_connected():
 
 def handle_message(message):
   print "Message!"
-  print msg
+  print message
 
 print lib.lib_func()
 print "This is logo mode!"
