@@ -7,6 +7,7 @@ from tealight.utils import github_import
 
 github_import()
 
+print lib.lib_func()
 print "This is logo mode!"
 
 print 5/2
