@@ -3,7 +3,7 @@ from tealight.logo import (move, turn,
                            show_turtle, hide_turtle,
                            color, speed)
 
-import imp
+print dir(__import__)
 
 print "This is logo mode!"
 
