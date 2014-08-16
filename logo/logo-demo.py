@@ -3,9 +3,9 @@ from tealight.logo import (move, turn,
                            show_turtle, hide_turtle,
                            color, speed)
 
-from tealight.utils import github_import
+from tealight.utils import github_load
 
-github_import()
+github_load("daviesian", "logo/lib.py")
 
 import lib
 
