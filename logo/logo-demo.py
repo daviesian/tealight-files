@@ -9,6 +9,8 @@ github_load("daviesian", "logo/lib.py", "lib")
 
 import lib
 
+from pickle import dump
+
 print lib.lib_func()
 print "This is logo mode!"
 
