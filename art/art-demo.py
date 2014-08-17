@@ -48,3 +48,4 @@ def handle_mousemove(x,y):
   
 def handle_mousedown(x,y):
   spot(x,y,10)
+  color = 
