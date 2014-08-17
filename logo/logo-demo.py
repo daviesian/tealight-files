@@ -4,7 +4,7 @@ from tealight.logo import (move, turn,
                            color, speed)
 
 
-import github.daviesian.logo.lib as foo
+from github.daviesian.logo.lib import lib_func
 
 import tealight.net
 
@@ -18,7 +18,7 @@ def handle_message(message):
   print "Message!"
   print message
 
-print foo.lib_func()
+print lib_func()
 print "This is logo mode!"
 
 print 5/2
