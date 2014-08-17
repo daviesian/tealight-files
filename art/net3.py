@@ -1,6 +1,6 @@
 from tealight.art import line
 
-
+from tealight.net import connect, send
 
 pos = {
        "x": 0,
