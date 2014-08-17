@@ -3,11 +3,6 @@ from tealight.logo import (move, turn,
                            show_turtle, hide_turtle,
                            color, speed)
 
-from tealight.utils import github_load
-
-github_load("daviesian", "logo/lib.py", "lib")
-
-import lib
 
 import github.daviesian.logo.lib as foo
 
@@ -23,7 +18,7 @@ def handle_message(message):
   print "Message!"
   print message
 
-print lib.lib_func()
+print foo.lib_func()
 print "This is logo mode!"
 
 print 5/2
