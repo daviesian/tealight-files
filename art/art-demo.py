@@ -4,6 +4,8 @@ from tealight.art import (screen_width, screen_height)
 
 from random import random
 
+from math import sqrt
+
 def expt():
   heads = 0
   for i in range(0,50,1):
