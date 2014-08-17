@@ -14,7 +14,7 @@ def go(x,y):
   
 
 def handle_mousemove(x,y):
-  #go(x,y)
+  go(x,y)
   send(pos)
   
 def handle_message(message):
