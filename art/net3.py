@@ -2,10 +2,10 @@ from tealight.art import line
 
 from tealight.net import connect, send
 
-pos = {
-       "x": 0,
-       "y": 0
-      }
+pos = {}
+
+pos.x = 0
+pos.y = 0
 
 def go(x,y):
   line(pos["x"], pos["y"], x,y)
