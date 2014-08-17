@@ -9,6 +9,8 @@ github_load("daviesian", "logo/lib.py", "lib")
 
 import lib
 
+import github.daviesian.logo.lib as foo
+
 import tealight.net
 
 tealight.net.connect("my_app")
