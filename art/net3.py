@@ -2,7 +2,7 @@ from tealight.art import line
 
 from tealight.net import connect, send
 
-
+from math import sqrt
 
 def go(x,y):
   line(pos["x"], pos["y"], x,y)
