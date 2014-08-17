@@ -1,5 +1,5 @@
 from tealight.logo import (move, turn, color)
 
-move(100)
-turn(90)
-move(100)
+for i in range(0,100):
+  move(i)
+  turn(83)
