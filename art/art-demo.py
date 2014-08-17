@@ -4,7 +4,7 @@ from tealight.art import (screen_width, screen_height)
 
 from random import random
 
-from math import sqrt
+from math import sin, cos, tan, sqrt
 
 def expt():
   heads = 0
