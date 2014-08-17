@@ -13,8 +13,8 @@ def handle_mousemove(x,y):
   pos["y"] = y
   send(pos)
   
-def handle_message(new_pos):
-  line(pos["x"], pos["y"], new_pos.x, new_pos.y)
+def handle_message(message):
+  line(pos["x"], pos["y"], message.x, message.y)
   pos["x"] = x
   pos["y"] = y
   
