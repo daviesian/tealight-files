@@ -29,7 +29,7 @@ print data
 
 
 def factorise(n):
-   for i in range(2, sqrt(n)):
+   for i in range(2, int(sqrt(n))):
       if n % i == 0:
          print i
          factorise(n / i)
