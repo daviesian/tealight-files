@@ -49,3 +49,4 @@ def handle_mousemove(x,y):
 def handle_mousedown(x,y):
   spot(x,y,10)
   color("hsl(%d,100%%,50%%)" % int(random()*255))
+  circle(x,y,10)
