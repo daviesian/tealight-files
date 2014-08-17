@@ -7,15 +7,17 @@ pos = {
        "y": 0
       }
 
-def handle_mousemove(x,y):
+def go(x,y):
   line(pos["x"], pos["y"], x,y)
   pos["x"] = x
   pos["y"] = y
+  
+
+def handle_mousemove(x,y):
+  go(x,y)
   send(pos)
   
 def handle_message(message):
-  line(pos["x"], pos["y"], message["x"], message["y"])
-  pos["x"] = x
-  pos["y"] = y
+  go(message["x"], message["y"])
   
 connect("my_thing")
