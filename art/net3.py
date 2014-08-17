@@ -26,7 +26,7 @@ for i in range(0,10):
 
 print data
 
-factorise(100)
+
 
 def factorise(n):
    for i in range(2, sqrt(n)):
@@ -35,3 +35,5 @@ def factorise(n):
          factorise(n / i)
          return
    print n
+        
+factorise(100)
