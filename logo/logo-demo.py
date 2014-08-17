@@ -24,6 +24,8 @@ print "This is logo mode!"
 print 5/2
 colors = ["red", "blue", "green"]
 
+pen_up()
+
 for i in range(10,200,5):
   move(i)
   turn(83)
