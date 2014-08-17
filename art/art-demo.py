@@ -4,7 +4,7 @@ from tealight.art import (screen_width, screen_height)
 
 from random import random
 
-from math import PI
+from math import pi
 
 def expt():
   heads = 0
