@@ -11,3 +11,11 @@ def handle_mousemove(x,y):
   line(pos["x"], pos["y"], x,y)
   pos["x"] = x
   pos["y"] = y
+  send(pos)
+  
+def handle_message(new_pos):
+  line(pos["x"], pos["y"], x,y)
+  pos["x"] = x
+  pos["y"] = y
+  
+connect("my_thing")
