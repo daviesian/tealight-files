@@ -30,6 +30,8 @@ def handle_keyup(keyval):
     ay = 0
     
 def handle_frame():
+  global x,y,vx,vy,ax,ay
+  
   color("white")
   
   spot(x,y,8)
