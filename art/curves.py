@@ -4,4 +4,11 @@ for x in range(54):
   for y in range(39):
     if y > x*x:
       color("red")
-      box(x*10,y*10,10,10)
+    elif y > x:
+      color("green")
+    elif y*y < x:
+      color("yellow")
+    else:
+      color("blue")
+    
+    box(x,y,1,1)
