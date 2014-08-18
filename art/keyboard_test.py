@@ -8,6 +8,10 @@ def handle_keydown(keychar, keyval):
   x += 10
   y += 10
   
+  
+  
+  
+  
   spot(x,y,5)
   print keychar
 
