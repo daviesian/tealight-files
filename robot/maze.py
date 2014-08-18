@@ -9,4 +9,4 @@ from tealight.robot import (move,
 # Add your code here
 
 while True:
-  turn(1)
+  turn(1
