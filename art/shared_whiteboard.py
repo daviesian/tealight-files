@@ -22,6 +22,9 @@ def handle_mousemove(x,y,button):
     send("hellO")
     lastx = x
     lasty = y
+    
+d = dict(x1 = lastx, y1 = lasty, x2 = x, y2 = y)
+print d
   
 def handle_message(message):
   line(message["x1"], message["y1"], message["x2"], message["y2"])
