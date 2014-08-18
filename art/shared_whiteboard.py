@@ -23,7 +23,7 @@ def handle_mousemove(x,y,button):
     lastx = x
     lasty = y
     
-d = dict(x1 = lastx, y1 = lasty, x2 = x, y2 = y)
+d = dict(x1 = 1, y1 = 2, x2 = 3, y2 = 4)
 print d
   
 def handle_message(message):
