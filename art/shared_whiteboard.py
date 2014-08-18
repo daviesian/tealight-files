@@ -19,12 +19,9 @@ def handle_mousemove(x,y,button):
   
   if button == "left":
     line(lastx, lasty, x, y)
-    send("hellO")
+    send({"x1": lastx, "y1": lasty, "x2": x, "y2": y})
     lastx = x
     lasty = y
-    
-d = dict(x1 = 1, y1 = 2, x2 = 3, y2 = 4)
-print d
   
 def handle_message(message):
   line(message["x1"], message["y1"], message["x2"], message["y2"])
