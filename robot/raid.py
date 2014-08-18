@@ -6,4 +6,4 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-# This is a fairly useless algorithm!
+# Add your code here
