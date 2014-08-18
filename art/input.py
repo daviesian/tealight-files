@@ -4,5 +4,5 @@ def handle_mousedown(x,y):
   spot(x,y,10)
   
 def handle_mousemove(x,y,button):
-  if None == "left":
+  if button == "left":
     spot(x,y,10)
