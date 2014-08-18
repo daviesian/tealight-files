@@ -5,10 +5,10 @@ from tealight.art import (screen_width, screen_height)
 from random import random
 
 
-from tealight.utils import now, age
+from tealight.utils import now, age, sleep
 
 print now()
-
+sleep(500)
 print age()
 
 die
