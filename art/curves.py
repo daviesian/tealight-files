@@ -1,11 +1,8 @@
 from tealight.art import (color, line, spot, circle, box, image, text, background)
 
-for x in range(0,540):
-  for y in range(0,390):
-    
-    x = x / 10
-    y = y / 10
-    
+for x in range(0,54):
+  for y in range(0,39):
+
     if y > x*x:
       color("red")
     elif y > x:
