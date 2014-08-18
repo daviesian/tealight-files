@@ -9,5 +9,5 @@ def handle_keydown(keychar, keyval):
   y += 10
   
   spot(x,y,5)
-  print "" + str(keyval)
+  print keychar
 
