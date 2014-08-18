@@ -4,6 +4,11 @@ from tealight.art import (screen_width, screen_height)
 
 from random import random
 
+
+from tealight.utils import now
+
+print now()
+
 from math import pi
 
 def expt():
