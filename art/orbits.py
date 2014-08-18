@@ -12,24 +12,22 @@ power = 0.3
 def handle_keydown(key):
   global ax, ay
   
-  print key
-  keyval = 0
-  
-  if keyval == 37: # Left
+
+  if key == "left":
     ax = -power
-  elif keyval == 39: # Right
+  elif key == "right":
     ax = power
-  elif keyval == 38: # Up
+  elif key == "up":
     ay = -power
-  elif keyval == 40: # Down
+  elif key == "down":
     ay = power
 
-def handle_keyup(keyval):
+def handle_keyup(key):
   global ax, ay
 
-  if keyval == 37 or keyval == 39:
+  if key == "left" or key == "right":
     ax = 0
-  elif keyval == 38 or keyval == 40:
+  elif key == "up" or key == "down":
     ay = 0
     
 def handle_frame():
