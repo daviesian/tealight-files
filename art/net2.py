@@ -1,3 +1,3 @@
 from math import degrees, radians, pi
 
-print degrees(pi)
+print radians(180)
