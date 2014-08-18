@@ -5,7 +5,6 @@ def handle_mousedown(x,y):
   spot(x,y,10)
   
 def handle_mousemove(x,y,button):
-  print button
   if button == "left":
     color("red")
     circle(x,y,10)
