@@ -3,8 +3,8 @@ from tealight.robot import (move,
                             look, 
                             touch, 
                             smell, 
-                            leftSide, 
-                            rightSide)
+                            left_side, 
+                            right_side)
 
 # Here is a fairly useless algorithm
 
