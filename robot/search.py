@@ -6,7 +6,7 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-# Here is a fairly useless algorithm
+# This is a fairly useless algorithm!
 
 while True:
   move()
