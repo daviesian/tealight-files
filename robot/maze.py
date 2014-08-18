@@ -10,3 +10,4 @@ from tealight.robot import (move,
 
 while True
   turn(1)
+  dsfg
