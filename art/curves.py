@@ -4,4 +4,4 @@ for x in range(54):
   for y in range(39):
     if y > x*x:
       color("red")
-      box(x*30,y*30,1,1)
+      box(x*10,y*10,10,10)
