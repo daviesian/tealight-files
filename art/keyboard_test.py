@@ -4,5 +4,5 @@ x = screen_width / 2
 y = screen_height / 2
 
 def handle_keydown(keychar, keyval):
-  print keychar + keyval
+  print "" + keychar + keyval
 
