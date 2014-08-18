@@ -14,11 +14,11 @@ def handle_keydown(keyval):
   
   if keyval == 37: # Left
     ax = -power
-  elif keyval = 39: # Right
+  elif keyval == 39: # Right
     ax = power
-  elif keyval = 38: # Up
+  elif keyval == 38: # Up
     ay = -power
-  elif keyval = 40: # Down
+  elif keyval == 40: # Down
     ay = power
 
 def handle_keyup(keyval):
