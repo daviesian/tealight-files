@@ -27,6 +27,7 @@ def handle_keyup(keyval):
   if keyval == 37 or keyval == 39:
     ax = 0
   elif keyval == 38 or keyval == 40:
+    print "STOP"
     ay = 0
     
 def handle_frame():
