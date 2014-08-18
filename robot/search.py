@@ -7,5 +7,5 @@ from tealight.robot import (move,
                             right_side)
 
 # This is a fairly useless algorithm!
-
-print touch()
+x = None
+print x
