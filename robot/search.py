@@ -8,8 +8,4 @@ from tealight.robot import (move,
 
 # This is a fairly useless algorithm!
 
-while True:
-  move()
-  
-  if touch() == "wall":
-    turn(2)
+print touch()
