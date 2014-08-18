@@ -2,6 +2,7 @@ from tealight.logo import (move,
                            turn,
                            color)
 
+print "This is tealight!"
 
 colors = ["red", "blue", "green"]
 
