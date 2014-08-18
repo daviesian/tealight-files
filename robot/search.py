@@ -8,4 +8,4 @@ from tealight.robot import (move,
 
 # This is a fairly useless algorithm!
 x = None
-print look() == None
+print look()
