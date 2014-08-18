@@ -1,6 +1,6 @@
-from tealight.robot import (move, turn, look, touch, smell, leftSide, rightSide)
-
-# Add your code here!
+from tealight.robot import (move, 
+                            turn, 
+                            touch)
 
 def go(): 
   moved = 0
@@ -19,7 +19,5 @@ def go():
   for i in range(0,moved):
     move()
   turn(2)
-  
-    
     
 go()
