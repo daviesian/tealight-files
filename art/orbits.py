@@ -12,7 +12,8 @@ power = 0.3
 def handle_keydown(key):
   global ax, ay
   
-  print keyval
+  print key
+  keyval = 0
   
   if keyval == 37: # Left
     ax = -power
