@@ -9,6 +9,7 @@ from tealight.utils import now
 
 print now()
 
+die
 from math import pi
 
 def expt():
