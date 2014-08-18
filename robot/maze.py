@@ -8,6 +8,6 @@ from tealight.robot import (move,
 
 # Add your code here
 
-while True
+while True:
   turn(1)
   dsfg
