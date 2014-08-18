@@ -8,4 +8,4 @@ def handle_mousemove(x,y,button):
   print button
   if button == "left":
     color("red")
-    spot(x,y,10)
+    circle(x,y,10)
