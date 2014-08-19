@@ -7,5 +7,6 @@ from tealight.robot import (move,
                             right_side)
 
 # This is a fairly useless algorithm!
-x = None
-print look()
+
+while True:
+  move()
