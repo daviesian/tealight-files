@@ -4,7 +4,7 @@ from tealight.art import (screen_width, screen_height)
 
 from random import random
 
-spot(3,4,5)
+spot("hi",4,5)
 def expt():
   heads = 0
   for i in range(0,50,1):
