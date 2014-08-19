@@ -4,7 +4,7 @@ def handle_connected():
   print "Connected"
   
 def handle_message(message):
-  print "Message!"
+  print "Message!"7
   
   print message["x"]
 
