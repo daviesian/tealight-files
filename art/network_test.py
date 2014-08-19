@@ -14,3 +14,4 @@ def handle_mousemove(x,y):
 connect("net_test")
 send({"x":1, "y":2}, True)
 
+connect()
