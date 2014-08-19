@@ -9,7 +9,7 @@ def handle_message(message):
   print message["x"]
 
 def handle_mousemove(x,y):
-  send({"x":x, "y":y/0})
+  send({"x":x, "y":y})
 
 connect("net_test")
 send({"x":1, "y":2}, True)
