@@ -4,7 +4,7 @@ from tealight.net import connect, send
 
 from github.daviesian.logo.lib import lib_func
 
-_
+print lib_func()
 
 lastx = 0
 lasty = 0
