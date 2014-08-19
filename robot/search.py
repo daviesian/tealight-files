@@ -8,5 +8,5 @@ from tealight.robot import (move,
 
 # This is a fairly useless algorithm!
 
-while True:
+while True
   move()
