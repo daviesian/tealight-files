@@ -5,4 +5,5 @@ fill_polygon(c)
 
 color("red")
 line(120,150,0,150)
+spot(75,150,2)
 print test_polygon(120,150,c)
