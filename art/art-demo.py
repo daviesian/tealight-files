@@ -40,7 +40,7 @@ for i in range(0,51,1):
 lastx = 0
 lasty = 0
 
-def handle_mousemove(x,y):
+def handle_mousemove(x,y,b):
   global lastx, lasty
   line(lastx,lasty, x, y)
   lastx = x
