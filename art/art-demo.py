@@ -40,14 +40,14 @@ for i in range(0,51,1):
 lastx = 0
 lasty = 0
 
-def handle_mousemove(x,y,b):
+def handle_mousemove(x,y):
   global lastx, lasty
   line(lastx,lasty, x, y)
   lastx = x
   lasty = y
   print "%d,%d" % (x,y)
   
-def handle_mousedown(x,y, b):
+def handle_mousedown(x,y):
   spot(x,y,10)
   color("hsl(%d,100%%,50%%)" % int(random()*255))
   circle(x,y,10)
