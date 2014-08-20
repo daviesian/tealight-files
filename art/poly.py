@@ -12,7 +12,7 @@ for i in range(0,500,10):
   for j in range(0,500,10):
     if test_polygon(i,j,c):
       color("red")
-    #else:
-    #  color("blue")
+    else:
+      color("blue")
     circle(i,j,2)    
 
