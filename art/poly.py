@@ -1,4 +1,4 @@
-from tealight.art import line, color, polygon, fill_polygon, test_polygon
+from tealight.art import *
 
 c = [(100,100), (50,200), (200,300), (200, 50)]
 fill_polygon(c)
