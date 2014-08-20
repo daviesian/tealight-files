@@ -47,7 +47,8 @@ def handle_mousemove(x,y):
   lasty = y
   print "%d,%d" % (x,y)
   
-def handle_mousedown(x,y):
+def handle_mousedown(x,y,b):
+  print b
   spot(x,y,10)
   color("hsl(%d,100%%,50%%)" % int(random()*255))
   circle(x,y,10)
