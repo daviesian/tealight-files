@@ -14,5 +14,5 @@ for i in range(0,500,10):
       color("red")
     else:
       color("blue")
-    circle(i,j,2)    
+    #circle(i,j,2)    
 
