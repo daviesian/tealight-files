@@ -1,4 +1,4 @@
 from tealight.art import polygon
 
-c = [(0,1), [2,3]]
+c = [(100,100), (100,200), (200,300), (200, 50)]
 polygon(c)
