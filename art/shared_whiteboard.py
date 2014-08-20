@@ -23,7 +23,7 @@ def handle_mousemove(x,y,button):
   
   if button == "left":
     line(lastx, lasty, x, y)
-    send({"x1": lastx, "y1": lasty, "x2": x, "y2": y},True)
+    send({"x1": lastx, "y1": lasty, "x2": x, "y2": y})
     lastx = x
     lasty = y
   
