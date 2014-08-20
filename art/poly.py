@@ -10,11 +10,11 @@ print test_polygon(50,50,c)
 
 
 
-for i in range(0,500,3):
-  for j in range(0,500,3):  
+for i in range(0,500,10):
+  for j in range(0,500,10):  
     if test_polygon(i,j,c):
       color("red")
     else:
       color("blue")
-    circle(i,j,0.2)    
+    circle(i,j,3)    
 
