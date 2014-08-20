@@ -1,3 +1,3 @@
 from tealight.art import polygon
 
-polygon(4)
+polygon({"a":1})
