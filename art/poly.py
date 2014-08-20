@@ -16,5 +16,5 @@ for i in range(0,500,10):
       color("red")
     else:
       color("blue")
-    circle(i,j,3)    
+    box(i,j,3,3)    
 
