@@ -2,6 +2,8 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 
 from tealight.net import connect, send
 
+from github.daviesian.art.poly import *
+
 lastx = 0
 lasty = 0
 
