@@ -9,7 +9,7 @@ color("red")
 print test_polygon(50,50,c)
 
 
-uhjk
+
 for i in range(0,500,3):
   for j in range(0,500,3):  
     if test_polygon(i,j,c):
