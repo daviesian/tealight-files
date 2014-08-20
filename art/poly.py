@@ -1,4 +1,4 @@
-from tealight.art import polygon
+from tealight.art import polygon, fill_polygon
 
 c = [(100,100), (100,200), (200,300), (200, 50)]
 polygon(c)
