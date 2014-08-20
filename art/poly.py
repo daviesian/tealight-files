@@ -6,15 +6,15 @@ fill_polygon(c)
 color("red")
 line(50,200,1000,200)
 #spot(283,150,5)
-print test_polygon(49,200,c)
+print test_polygon(50,50,c)
 
 
 
-for i in range(0,500,4):
-  for j in range(0,500,4):
-    if test_polygon(i,j,c):
-      color("red")
-    else:
-      color("blue")
-    circle(i,j,2)    
+#for i in range(0,500,4):
+#  for j in range(0,500,4):
+#    if test_polygon(i,j,c):
+#      color("red")
+#    else:
+#      color("blue")
+#    circle(i,j,2)    
 
