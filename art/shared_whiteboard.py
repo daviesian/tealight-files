@@ -4,7 +4,7 @@ from tealight.net import connect, send
 
 from github.daviesian.art.poly import *
 
-
+from tealight.utils import github_load
 
 lastx = 0
 lasty = 0
