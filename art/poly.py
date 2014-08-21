@@ -21,3 +21,4 @@ for i in range(0,500,10):
       color("blue")
     box(i,j,3,3)    
 
+print __name__
