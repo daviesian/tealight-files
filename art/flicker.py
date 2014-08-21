@@ -1,7 +1,16 @@
 from tealight.art import *
 
+sx = 0
+sy = 0
+
+def handle_mousemove(x,y)
+  global sx, sy
+  
+  sx = x
+  sy = y
+
 def handle_frame():
   color("red")
   box(0,0,screen_width, screen_height)
   color("blue")
-  spot(100,100,50)
+  spot(sx,sy,50)
