@@ -3,7 +3,7 @@ from tealight.art import *
 sx = 0
 sy = 0
 
-def handle_mousemove(x,y)
+def handle_mousemove(x,y):
   global sx, sy
   
   sx = x
