@@ -20,6 +20,7 @@ start = now()
 mouse_x = None
 
 def draw():
+  global age
   max_twist = 2*pi * 2. / num_triangles
   if mouse_x is not None:
     m_a = (mouse_x / float(screen_width) - 0.5)*2 * max_twist
@@ -32,7 +33,7 @@ def draw():
   
   for i in range(0, num_triangles):
     size = min_size + (max_size - min_size) * float(i) / num_triangles
-    size *= (sin(age())*0.1 + 1)
+    size *= (sin(age)*0.1 + 1)
     
     l = min_l + (max_l - min_l) * float(i) / num_triangles
     
