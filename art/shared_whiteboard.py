@@ -2,7 +2,7 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 
 from tealight.net import connect, send
 
-from github.daviesian.art.poly import *
+import github.adam1984.art.triangle as thing
 
 from tealight.utils import github_load
 
