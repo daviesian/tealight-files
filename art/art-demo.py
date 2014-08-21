@@ -5,7 +5,7 @@ from tealight.art import (screen_width, screen_height)
 from random import random
 
 for i in range(0,100):
-  image(0,i,"bird.png")
+  circle(0,i,30)
 spot(8,4,5)
 def expt():
   heads = 0
