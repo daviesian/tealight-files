@@ -3,7 +3,9 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 from tealight.art import (screen_width, screen_height)
 
 from random import random
-image(0,0,"bird.png")
+
+for i in range(0,100):
+  image(0,i,"bird.png")
 spot(8,4,5)
 def expt():
   heads = 0
