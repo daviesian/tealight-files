@@ -7,6 +7,8 @@ from github.daviesian.art.poly import *
 from tealight.utils import github_load
 
 a = github_load("daviesian", "logo", "lib")
+
+print a
 lastx = 0
 lasty = 0
 
