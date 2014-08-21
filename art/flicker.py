@@ -13,7 +13,7 @@ def handle_frame():
   color("green")
   box(0,0,screen_width, screen_height)
   
-  color("red")
-  box(0,0,screen_width, screen_height)
+  #color("red")
+  #box(0,0,screen_width, screen_height)
   color("blue")
   spot(sx,sy,50)
