@@ -9,7 +9,6 @@ fill_polygon(c)
 color("red")
 #line(50,60,1000,60)
 #spot(287.89,60,5)
-print test_polygon(50,50,c)
 
 
 
@@ -21,4 +20,7 @@ for i in range(0,500,10):
       color("blue")
     box(i,j,3,3)    
 
-print __name__
+if __name__ == "__main__":
+  print test_polygon(50,50,c)
+
+  
