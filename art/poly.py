@@ -15,7 +15,7 @@ density = 5
 for i in range(0,500,density):
   for j in range(0,500,density):  
     if test_polygon(i,j,c):
-      color("red")
+      color("rgba(255,0,0,0.5)")
     else:
       color("blue")
     spot(i,j,2)    
