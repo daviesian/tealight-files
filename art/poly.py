@@ -10,10 +10,10 @@ color("red")
 #line(50,60,1000,60)
 #spot(287.89,60,5)
 
+density = 5
 
-
-for i in range(0,500,10):
-  for j in range(0,500,10):  
+for i in range(0,500,density):
+  for j in range(0,500,density):  
     if test_polygon(i,j,c):
       color("red")
     else:
