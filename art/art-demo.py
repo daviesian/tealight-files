@@ -19,6 +19,7 @@ def expt():
 
 bins = [0] * 51
 
+
 numTrials = 1000
 
 for i in range(0,numTrials,1):
