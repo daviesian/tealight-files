@@ -1,4 +1,4 @@
-from tealight.art import (color, line, spot, circle, box, image, text, background)
+from tealight.art import (color, line_width, line, spot, circle, box, image, text, background)
 
 from tealight.net import connect, send
 
@@ -11,7 +11,7 @@ a = github_load("daviesian", "logo", "lib")
 print a.lib_func()
 lastx = 0
 lasty = 0
-
+line_width(3)
 color("blue")
 connect("shared_whiteboard")
 
