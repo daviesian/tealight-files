@@ -10,6 +10,9 @@ def handle_mousemove(x,y):
   sy = y
 
 def handle_frame():
+  color("white")
+  box(0,0,screen_width, screen_height)
+  
   color("red")
   box(0,0,screen_width, screen_height)
   color("blue")
