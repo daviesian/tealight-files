@@ -21,6 +21,6 @@ for i in range(0,500,10):
     box(i,j,3,3)    
 
 if __name__ == "__main__":
-  print test_polygon(50,50,c)
+  print "Test: " + str(test_polygon(50,50,c))
 
   
