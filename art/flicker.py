@@ -10,7 +10,7 @@ def handle_mousemove(x,y):
   sy = y
 
 def handle_frame():
-  color("green")
+  color("white")
   box(0,0,screen_width, screen_height)
   z = 0
   for i in range(1,10000):
