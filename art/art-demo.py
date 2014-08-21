@@ -5,6 +5,7 @@ from tealight.art import (screen_width, screen_height)
 from random import random
 
 def handle_frame():
+  background("paper.jpg")
   for i in range(0,100):
     image(0,i,"bird.png")
 spot(8,4,5)
