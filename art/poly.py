@@ -18,7 +18,7 @@ for i in range(0,500,density):
       color("red")
     else:
       color("blue")
-    spot(i,j,1)    
+    spot(i,j,2)    
 
 if __name__ == "__main__":
   print "Test: " + str(test_polygon(50,50,c))
