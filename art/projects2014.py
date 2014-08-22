@@ -11,7 +11,7 @@
 #from github.anthonyajsmith.art.othello import *
 
 ## GROUP 5
-#from github.davidsamueljones.art.Minesweeper import *
+from github.davidsamueljones.art.Minesweeper import *
 
 ## GROUP 6 - Server. Broken until racetracknetworking is given .py extension.
 #from github.lordvile018.art.racetracknetworking import *
@@ -20,4 +20,4 @@
 #from github.a-l-williams.art.project import *
 
 ## GROUP 7 - Race Track
-from github.v3491.art.untitled import *
+#from github.v3491.art.untitled import *
