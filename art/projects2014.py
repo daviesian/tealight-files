@@ -1,1 +1,1 @@
-from github.chandler6.art.connect4main import *
+from github.chandler6.art.connectfourmain import *
