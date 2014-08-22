@@ -13,5 +13,10 @@
 ## GROUP 5
 #from github.davidsamueljones.art.Minesweeper import *
 
-## GROUP 6 - Server
-from github.lordvile018.art.racetracknetworking import *
+## GROUP 6 - Server. Broken until racetracknetworking is given .py extension.
+#from github.lordvile018.art.racetracknetworking import *
+
+## GROUP 6 - Client. Can't import github username with hyphens.
+
+## GROUP 7
+from github.v3491.art.untitled import *
