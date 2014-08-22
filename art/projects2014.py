@@ -17,6 +17,7 @@
 #from github.lordvile018.art.racetracknetworking import *
 
 ## GROUP 6 - Client. Can't import github username with hyphens.
+from github.a-l-williams.art.project import *
 
 ## GROUP 7 - Race Track
 from github.v3491.art.untitled import *
