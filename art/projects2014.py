@@ -2,7 +2,7 @@
 #from github.chandler6.art.connectfourmain import *
 
 ## GROUP 2
-#from github.shivam1023.art.MemoryGame import *
+from github.shivam1023.art.MemoryGame import *
 
 ## GROUP 3
 #from github.griffithsben.art.Connect4Main import *
@@ -17,7 +17,7 @@
 #from github.lordvile018.art.racetracknetworking import *
 
 ## GROUP 6 - Client. Can't import github username with hyphens.
-from github.a-l-williams.art.project import *
+#from github.a-l-williams.art.project import *
 
 ## GROUP 7 - Race Track
-from github.v3491.art.untitled import *
+#from github.v3491.art.untitled import *
