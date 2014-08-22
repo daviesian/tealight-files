@@ -11,4 +11,7 @@
 #from github.anthonyajsmith.art.othello import *
 
 ## GROUP 5
-from github.davidsamueljones.art.Minesweeper import *
+#from github.davidsamueljones.art.Minesweeper import *
+
+## GROUP 6 - Server
+from github.lordvile018.art.racetracknetworking import *
