@@ -8,10 +8,10 @@
 #from github.griffithsben.art.Connect4Main import *
 
 ## GROUP 4
-#from github.anthonyajsmith.art.othello import *
+from github.anthonyajsmith.art.othello import *
 
 ## GROUP 5
-from github.davidsamueljones.art.Minesweeper import *
+#from github.davidsamueljones.art.Minesweeper import *
 
 ## GROUP 6 - Server. Broken until racetracknetworking is given .py extension.
 #from github.lordvile018.art.racetracknetworking import *
