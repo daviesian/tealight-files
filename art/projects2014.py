@@ -18,5 +18,5 @@
 
 ## GROUP 6 - Client. Can't import github username with hyphens.
 
-## GROUP 7
+## GROUP 7 - Race Track
 from github.v3491.art.untitled import *
