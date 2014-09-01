@@ -22,4 +22,4 @@ from github.chandler6.art.connectfourmain import *
 ## GROUP 7 - Race Track
 #from github.v3491.art.untitled import *
 
-from github.andyandywells.art.connect import *
+from github.chloea.art.finished_connect_4 import *
