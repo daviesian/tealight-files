@@ -4,6 +4,7 @@ from tealight.art import (screen_width, screen_height)
 
 from random import random
 
+set_screen_size(100,100)
     
 spot(8,4,5)
 def expt():
