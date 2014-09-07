@@ -6,6 +6,7 @@ from random import random
 
 set_screen_size(2000,2000)
 
+color("rgba(255,0,255,0.1)")
 box(0,0,2000,2000)
     
 spot(8,4,5)
