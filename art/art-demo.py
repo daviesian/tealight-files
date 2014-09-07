@@ -4,7 +4,7 @@ from tealight.art import (screen_width, screen_height, set_screen_size)
 
 from random import random
 
-set_screen_size(2000,2000)
+set_screen_size(200,200)
 
 color("rgba(255,0,255,0.1)")
 box(0,0,2000,2000)
