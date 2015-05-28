@@ -17,7 +17,7 @@ def expt():
       
       
       
-      heads = heads + 
+      heads = heads + 1
       
     
      
