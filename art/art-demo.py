@@ -14,7 +14,12 @@ def expt():
   heads = 0
   for i in range(0,50,1):
     if random() >= 0.6666667:
-      heads = heads + 1
+      
+      
+      
+      heads = heads + 
+      
+    
      
   return heads
 
